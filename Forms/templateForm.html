@@ -1,0 +1,18 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+  <head><title></title></head>
+
+  <body>
+    <p tal:content="here/getBody_pre | nothing" />
+    <dl>
+        <tal:block repeat="field options/wrappedFields | nothing">
+            <p> 
+                <b><span tal:content="field/fgField/widget/label"></span></b>:
+                <span tal:content="structure python:field.htmlValue(request)"></span>
+            </p>
+        </tal:block>
+    </dl>
+    <p tal:content="here/getBody_post | nothing" />
+    <pre tal:content="here/getBody_footer | nothing" />
+  </body>
+</html>
