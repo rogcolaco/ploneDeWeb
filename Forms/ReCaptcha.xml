@@ -1,0 +1,5 @@
+<field name="captcha" type="collective.easyform.fields.ReCaptcha" easyform:serverSide="False" easyform:THidden="False">
+    <description/>
+    <required>False</required>
+    <title>Captcha</title>
+</field>
