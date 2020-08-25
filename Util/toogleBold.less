@@ -1,0 +1,34 @@
+//TOOGLE COM EFEITO DE NEGRITO AO SER SELECIONADO E ALTERAÇÃO DO ÍCONE ABERTO/FECHADO
+//TOOGLE
+.content{padding: 0 0 0 2em; display:block;}
+
+.heading{
+    background-color: transparent;
+    cursor: pointer;
+    margin: 1px 1px 5px 1px !important;
+    padding: 3px 10px;
+    position: relative;
+    font-weight:bold;
+    color: @bgnav;
+    
+    &::before {
+        content: "\f139";
+        font-family: FontAwesome;
+        color: @bgnavselected;
+        font-size: 18px;
+        padding-right: 8px;
+    }
+}
+
+.expanded{
+    color:#4d4d4d;
+    font-weight:normal;
+    
+    &::before {
+        content: "\f138";
+        font-family: FontAwesome;
+        color: @bgnavselected;
+        font-size: 18px;
+        padding-right: 8px;
+    }
+}
