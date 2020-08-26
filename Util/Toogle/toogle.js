@@ -11,3 +11,8 @@ jQuery(".heading").click(function(){
 if(window.location.href == "https://web06dev5.ufscar.br/pt-br/laboratorios"){
     $(".content").addClass("labs");
 }
+
+//SELECIONAR PÁGINA PELO CONTEÚDO DO TÍTULO DA PÁGINA
+if($(".documentFirstHeading").text().trim()=="Laboratórios"){
+    $(".content").addClass("labs");
+}
