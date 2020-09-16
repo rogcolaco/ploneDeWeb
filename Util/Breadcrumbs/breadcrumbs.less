@@ -1,0 +1,34 @@
+//BREADCRUMBS
+#breadcrumbs-you-are-here {
+    display: inline;
+    background-color: transparent;
+    width: 100px;
+    position: relative;
+    margin-right: 8px;
+    color:#282828;
+}
+  
+#portal-breadcrumbs{
+    background: @bgbreadcrumbs;
+    font-size: 13px;
+    color: @fontbreadcrumbs;
+  
+    ol a{
+        color: @linkbreadcrumbs;
+    }
+}
+  
+.plone-breadcrumb{margin-top:0;}
+  
+.plone-breadcrumb{
+    margin-top:0;
+     
+    ol > li {
+        display: initial;
+        line-height: 25px;
+    }
+}
+  
+.plone-breadcrumb ol > li + li::after, .plone-breadcrumb ol > li + li::before {
+    top: -8px;
+}
