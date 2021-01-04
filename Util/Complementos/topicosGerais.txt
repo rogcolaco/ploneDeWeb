@@ -1,0 +1,28 @@
+Criação de Complementos para Plone
+
+Utilização do Banco de Dados do Plone para armazenar Eventos
+	+ Configuração do ambiente de desenvolvimento
+	+ Definição da estrutura do complemento workshop.event com mrbob
+	+ Definição da pasta que armazenará os eventos
+	+ Definição do item (campos) workshop.event
+		- identificador (int)
+		- autor(textline)
+		- link (uri)
+		- data(date)
+		- texto (richtext)
+		- exibir (choice)
+		- campus (set)
+		- e-mail (email)
+		- imagem (NamedBlobImage)
+		- arquivo (NamedBlobFile)
+	+ Tradução para outros idiomas
+	+ Validação de um campo
+	+ Validação da influência de um campo em outro
+	+ Permitir a busca de um campo dexterity
+	+ AutoIncremento com variáveis globais no registro
+	+ Criação de indexes
+	+ Visão de listagem de eventos
+	+ Exportação do conteúdo para json
+	+ Exportação do conteúdo para csv
+	+ Criação de um portlet de eventos que consome os eventos json
+	+ Criação de testes unitários
