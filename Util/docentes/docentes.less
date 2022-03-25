@@ -1,0 +1,48 @@
+/* Pasta tinymce-templates irmã da pasta less 
+
+Alterações tiny-mce
+    - Aba "Plugins e Barra de Ferramentas"
+        - Campo "Templates"
+            [
+            {"title": "Docentes", "url": "++theme++zip-ufscar/tinymce-templates/docentes.html"},
+            {"title": "Grupos Pesquisa", "url": "++theme++zip-ufscar/tinymce-templates/grupos-pesquisa.html"}
+            ]
+
+        - Campo "Plugins personalizados"
+            template|+plone+static/components/tinymce-builded/js/tinymce/plugins/template
+
+*/
+
+//DOCENTES
+.docente-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+    
+    .docente-image{
+        width: 100%;
+        text-align: center;
+    }
+      
+    .docente-content {
+        width: 100%;
+        padding-left: 15px;
+    }
+}
+
+@media (min-width: 540px){
+    .docente-wrapper{
+        margin-bottom: 50px;
+    
+        .docente-image{
+            width: 30%;
+            text-align: center;
+        }
+        
+        .docente-content {
+            width: 65%;
+            padding-left: 15px;
+        }
+    }
+}
+

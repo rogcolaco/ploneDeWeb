@@ -1,0 +1,16 @@
+https://www.ppggero.ufscar.br//++theme++zip-ufscar/less/less/background.JPEG
+https://www.proace.ufscar.br//++theme++zip-ufscar/less/less/stucco.png
+https://www.dtpp.ufscar.br//++theme++zip-ufscar/less/less/less/bg.gif
+https://www.sin.ufscar.br//++theme++zip-ufscar/less/less/background8.jpg
+https://www.cienciaseconomicas.ufscar.br//++theme++zip-ufscar/less/less/bgnoise.jpg
+https://www.ppgcem.ufscar.br//++theme++zip-ufscar/less/less/less/shatter.png
+
+
+
+#content-header {
+    background-image: url("https://www.ppggero.ufscar.br//++theme++zip-ufscar/less/less/background.JPEG");
+}
+
+#content-header {
+    background-image: url("https://www.proace.ufscar.br//++theme++zip-ufscar/less/less/stucco.png");
+}

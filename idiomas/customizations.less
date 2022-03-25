@@ -1,0 +1,38 @@
+//ARQUIVO DE CUSTOMIZAÇÃO
+//LANGUAGE SELECTOR
+#portal-languageselector{
+    position:absolute;
+    z-index:9999;
+    margin: 56px 0px 0px 264px;
+    display:block;
+    
+    li img{
+        border-radius: 6px;
+        width: 28px;
+        height: 20px;
+        -webkit-filter: grayscale(60%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(60%);
+        
+        &:hover{
+            -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+            filter: grayscale(0%);
+        }
+    }
+}
+
+.language-es{display:none !important;}
+
+//MEDIA
+@media (min-width:400px) {
+    #portal-languageselector{
+        margin: 114px 0px 0px 210px;
+    }
+}
+
+@media (min-width:540px) {
+    #portal-languageselector{
+        margin: -6px auto 0px -27px;
+    }
+}
+
+
